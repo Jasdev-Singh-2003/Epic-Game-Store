@@ -1,0 +1,941 @@
+  /* Color Palette */
+  .bg-1{ background-color: #18181C;} /* For Header */
+  .bg-2{ background-color: #121212;} /* For Body */
+  .bg-3{ background-color: #303034;} /* For vBar */
+  .bg-4{ background-color: #202020;} /* For Search-Bar & Footer*/
+  .bg-5{ background-color: #1d1d1d;} /* For vBar */
+
+
+  .textCol-1{ color: #AAAAAE;}
+  .textCol-2{ color: #F5F5F5;}
+  .textCol-3{ color: #9A9A9A;}
+  .textCol-4{ color: #E7E7E7;}
+
+  *{ 
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+
+  .fl{ float: left;}
+  .fr{ float: right;}
+  .newLeft{ float: left; margin: 0px 1% 0px 1%;}
+  .clr{ clear: both;}
+  .mb{ margin-bottom: 1vh;}
+  .ml{ margin-left: 1.5%;}
+  .mr{ margin-right: 1.1%;}
+
+  .headWrapper{
+    width: 100%;
+    height: 10vh;
+  }
+
+  .headerWrapper{
+    width: 97%;
+    height: 4.5vh;
+    margin: 2.75vh 1.5%;
+  }
+
+  .logo{
+    width: 4%;
+    height: 4.5vh;
+  }
+
+  .epicLogo{
+    width:47%;
+  }
+
+  .downIcon{
+    width: 40%;
+    margin-top: 0.50vh;
+  }
+
+  .vBar{
+    width: 2px;
+    height: 4.5vh;
+  }
+
+  .storeImage{
+    width: 3.75%;
+    height: 4.5vh;
+    margin-right: 1.5%;
+  }
+
+  .storeImage img{
+    width: 100%;
+  }
+
+  .headText{
+    height: 4.5vh;
+  }
+
+  .headText p{
+    margin: 1.25vh 0px;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+
+  .userIcon{
+    width: 2%;
+    height: 4.5vh;
+    margin-left: 1%;
+  }
+
+  .userIcon img{
+    width: 100%;
+    margin-top: 1px;
+  }
+
+  .globeIcon{
+    width: 2%;
+    height: 4.5vh;
+    margin-left: 1%;
+  }
+
+  .globeIcon img{
+    width: 85%;
+    margin-top: 4px;
+  }
+
+  .downloadBtn{
+    width: 8%;
+    height: 4.5vh;
+    margin-left: 1%;
+  }
+
+  .downloadBtn button{
+    margin-left: 5%;
+    text-transform: capitalize;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    background-color: #26BBFF;
+    width: 80%;
+    height: 4.5vh;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .sub-headWrapper{
+    width: 100%;
+    height: 13.5vh;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .sub-headerWrapper{
+    width: 75%;
+    height: 5vh;
+    margin: 4.25vh 12.5%;
+  }
+
+  .searchIcon{
+    width: 3.5%;
+    height: 5vh;
+    border-radius: 50px 0px 0px 50px;
+  }
+
+  .searchIcon img{
+    width: 40%;
+    margin: 1.45vh 25% 1.45vh 35%;
+  }
+
+  .searchBar{
+    width: 15%;
+    height: 5vh;
+  }
+
+  .searchBar input{
+    width: 100%;
+    height: 5vh;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+  }
+
+  .sub-headText{
+    height: 5vh;
+    margin-left: 2.75%;
+  }
+
+  .sub-headText p{
+    margin: 1.40vh 0px;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+
+  .mainBody{
+    width: 100%;
+  }
+
+  .mainbodyWrapper{
+    width: 75%;
+    margin: 0px 12.5%;
+    padding-bottom: 17.5vh;
+  }
+
+  .trendingWrapper{
+    width: 100%;
+    height: 71.5vh;
+  }
+
+  .trending-bigImage{
+    width: 81%;
+    height: 70vh;
+    background-image: url(Images/Ubisoft-Sale-Big.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 50px rgba(118, 118, 118, 0.301);
+    border-radius: 20px;
+    position: relative;
+  }
+
+  .trending-bigImage img{
+    width: 23%;
+    position: relative;
+    left: 5%;
+    top: 18%;
+  }
+
+  .sale-end{
+    position: absolute;
+    left: 4%;
+    top: 38vh;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .sale-detail{
+    position: absolute;
+    left: 4%;
+    top: 42vh;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+  }
+
+  .sale-detail span{
+    display: block;
+  }
+
+  .trending-bigImage button{
+    position: absolute;
+    left: 4%;
+    top: 58vh;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .trendingTiles{
+    width: 17.50%;
+    height: 13.2vh;
+    border-radius: 15px;
+  }
+
+  .TrendingtilesWrapper{
+    width: 80%;
+    height: 8vh;
+    margin: 2.7vh 10%;
+  }
+
+  .trendingtileImage{
+    width: 30%;
+    height: 8vh;
+  }
+
+  .trendingtileImage img{
+    width: 100%;
+    border-radius: 7.5px;
+  }
+
+  .trendingtileTitle{
+    font-size: 14px;
+    margin: 3.2vh 0px 3.2vh 12%;
+  }
+
+  .saleWrapper{
+    width: 100%;
+    margin: 5vh 0px 0px 0px;
+  }
+
+  .saleWrapper-1{
+    width: 100%;
+    margin: 2.50vh 0px 0px 0px;
+  }
+
+  .sale-title-wrapper{
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 15px;
+  }
+
+  .saleTitle h2{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 1.15vh 0px;
+  }
+
+  .rightArrow{
+    width: 3%;
+    height: 5vh;
+  }
+
+  .rightArrow img{
+    width: 60%;
+    margin: 1.35vh 0px 0px 5%;
+  }
+
+  .switchSlide{
+    width: 3%;
+    height: 4vh;
+    margin: 0.5vh 0% 0.50vh 0.50%;
+    border-radius: 10px;
+  }
+
+  .switchSlide img{
+    width: 75%;
+    margin: 0.30vh 10% 0vh 15%;
+  }
+
+  .sale-games-wrapper{
+    width: 100%;
+    height: 55vh;
+  }
+
+  .sale-game{
+    width: 18.80%;
+    height: 50vh;
+  }
+
+  .sale-game-image{
+    width: 100%;
+    height: 37.5vh;
+  }
+
+  .sale-game-image img{
+    width: 97%;
+    margin: 0px 1.50%;
+    border-radius: 5px;
+  }
+
+  .sale-game-details{
+    width: 100%;
+    height: 12.5vh;
+  }
+
+  .baseGame{
+    font-size: 9px;
+    text-transform: uppercase;
+    margin: 12.5px 2.5% 5px;
+  }
+
+  .sale-game-name{
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 10px 2.5% 10px;
+    line-height: 1.40;
+  }
+
+  .discount{
+    margin: 5px 2.5%;
+    padding: 6px 10px;
+    font-size: 9px;
+    background-color: #0770d3;
+    border-radius: 5px;
+  }
+
+  .previous-price{
+    margin: 7.5px 5px 7.5px 10px;
+    text-decoration: line-through;
+  }
+
+  .new-price{
+    margin: 7.5px 5px;
+  }
+
+  .deals-of-week{
+    width: 100%;
+    height: 41.50vh;
+    margin-top: 7.5vh;
+  }
+
+  .deals-of-week-wrapper{
+    width: 31.66%;
+    height: 41vh;
+    display: inline;
+    position: relative;
+  }
+
+  .deals-of-week-wrapper img{
+    width: 100%;
+    border-radius: 15px;
+    position: absolute;
+  }
+
+  .deal-game-name{
+    position: absolute;
+    left: 5%;
+    top: 30vh;
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+
+  .deal-discount{
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #0770d3;
+    display: inline;
+    position: absolute;
+    font-size: 9px;
+    left: 5%;
+    top: 37vh;
+  }
+
+  .deal-previous-price{
+    position: absolute;
+    font-size: 22px;
+    text-decoration: line-through;
+    left: 20%;
+    top: 36.75vh;
+  }
+
+  .deal-new-price{
+    position: absolute;
+    font-size: 22px;
+    left: 40%;
+    top: 36.75vh;
+  }
+
+  .deals-of-week-wrapper-1{
+    width: 31.66%;
+    height: 41vh;
+    display: inline;
+    margin-left: 2.5%;
+    position: relative;
+  }
+
+  .deals-of-week-wrapper-1 img{
+    width: 100%;
+    border-radius: 15px;
+    position: absolute;
+  }
+
+  .deal-name{
+    position: absolute;
+    left: 5%;
+    top: 30vh;
+    font-size: 18px;
+  }
+
+  .browse-btn{
+    position: absolute;
+    font-size: 22px;
+    padding-bottom: 2px;
+    text-transform: capitalize;
+    border-bottom: #2A2A2A 1px solid;
+    left: 5%;
+    top: 36.75vh;
+  }
+
+  .free-games-wrapper{
+    width: 100%;
+    background-color: #2A2A2A;
+    border-radius: 7.5px;
+    margin: 4vh auto;
+    border: 0.1px solid #2A2A2A;
+  }
+
+  .free-games-row{
+    width: 94%;
+    margin: 4vh auto 2vh;
+    height: 6.50vh;
+    position: relative;
+  }
+
+  .free-games-row img{
+    position: absolute;
+    width: 4%;
+    top: 0vh;
+  }
+
+  .free-games-row span{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    left: 6%;
+    top: 2vh;
+  }
+
+  .free-games-row button{
+    font-size: 14px;
+    text-transform: capitalize;
+    position: absolute;
+    background-color: transparent;
+    border: 0.50px solid #F5F5F5;
+    padding: 8px 25px;
+    border-radius: 5px;
+    right: 0%;
+    top: 1vh;
+  }
+
+  .free-games-row-1{
+    width: 94%;
+    margin: 0vh auto 4vh;
+    height: 40vh;
+    position: relative;
+  }
+
+  .free-game{
+    width: 32.33%;
+    height: 40vh;
+    position: relative;
+  }
+
+  .free-game-details{
+    width: 100%;
+    position: absolute;
+  }
+
+  .free-game-details p{
+    font-size: 14px;
+    text-transform: capitalize;
+    top: 7vh;
+    position: absolute;
+  }
+
+  .free-game-details-1{
+    width: 100%;
+    position: absolute;
+  }
+
+  .free-game-details-1 p{
+    font-size: 14px;
+    top: 7vh;
+    position: absolute;
+  }
+
+  .free-game-details-1 span{
+    font-size: 14px;
+    position: absolute;
+    top: 10.50vh;
+    font-weight: 500;
+  }
+
+  .free-game-details span{
+    font-size: 14px;
+    position: absolute;
+    top: 10.50vh;
+    font-weight: 500;
+  }
+
+  .free-game-image{
+    width: 100%;
+    height: 26vh;
+    position: relative;
+    background-image: url(Images/Golden-Light-Free.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5.50px 5.50px 0px 0px;
+  }
+
+  .free-game-image div{
+    background-color: #0770d3;
+    width: 100%;
+    height: 3.50vh;
+    position: relative;
+    top: 26vh;
+    border-radius: 0px 0px 5.50px 5.50px;
+  }
+
+  .free-game-image div span{
+    position: absolute;
+    color: #ffffff;
+    display: block;
+    top: 0.755vh;
+    left: 40%;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .free-game-image-1{
+    width: 100%;
+    height: 26vh;
+    position: relative;
+    background-image: url(Images/Earthlock-Free.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5.50px 5.50px 0px 0px;
+  }
+
+  .free-game-image-1 div{
+    background-color: #000000;
+    width: 100%;
+    height: 3.50vh;
+    position: relative;
+    top: 26vh;
+    border-radius: 0px 0px 5.50px 5.50px;
+  }
+
+  .free-game-image-1 div span{
+    position: absolute;
+    color: #ffffff;
+    display: block;
+    top: 0.755vh;
+    left: 36.50%;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .ml-1{ margin-left: 1.50%;}
+
+  .free-game-image-2{
+    width: 100%;
+    height: 26vh;
+    position: relative;
+    background-image: url(Images/Surviving-the-Aftermath-Free.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5.50px 5.50px 0px 0px;
+  }
+
+  .free-game-image-2 div{
+    background-color: #000000;
+    width: 100%;
+    height: 3.50vh;
+    position: relative;
+    top: 26vh;
+    border-radius: 0px 0px 5.50px 5.50px;
+  }
+
+  .free-game-image-2 div span{
+    position: absolute;
+    color: #ffffff;
+    display: block;
+    top: 0.755vh;
+    left: 36.50%;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .deal-new-price-1{
+    position: absolute;
+    font-size: 22px;
+    left: 6%;
+    top: 36.75vh;
+  }
+
+  .top-games-wrapper{
+    width: 100%;
+    height: 76vh;
+    margin: 5vh 0% 5vh 0%;
+  }
+
+  .top-games{
+    width: 33.33%;
+    /* margin: 0vh 1%; */
+    height: 77vh;
+    position: relative;
+    border-right: 1px solid #2A2A2A;
+    padding: 0 2% 0 2%;
+  }
+
+  .top-game-category{
+    width: 100%;
+    height: 6.549vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    position: relative;
+    /* padding-right: 10px; */
+  }
+
+  .top-game-category h3{
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    top: 1.50vh;
+  }
+
+  .top-game-category button{
+    font-size: 9px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0.5px solid #F5F5F5;
+    border-radius: 3px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 1vh;
+    right: 0px;
+  }
+
+  .top-game-title{
+    width: 100%;
+    height: 12vh;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    /* background-color: #000000; */
+    position: relative;
+  }
+
+  .top-game-image{
+    width: 20%;
+    height: 11vh;
+  }
+
+  .top-game-image img{
+    width: 99%;
+    border-radius: 7.5px;
+  }
+
+  .top-game-details{
+    position: absolute;
+    top: 2vh;
+    left: 27.50%;
+    line-height: 25px;
+  }
+
+  .top-game-details p{
+    font-size: 14px;
+  }
+
+  .top-game-details span{
+    font-size: 12px;
+  }
+
+  .top-games-1{
+    width: 33.33%;
+    /* margin: 0vh 1%; */
+    height: 76vh;
+    position: relative;
+    /* border-right: 1px solid #2A2A2A; */
+    padding: 0 2% 0 2%;
+  }
+
+  .sale-game-name span{
+    text-transform: lowercase;
+  }
+
+  .two-top-games-wrapper{
+    width: 100%;
+    height: 67.90vh;
+    margin-top: 7.5vh;
+    margin-bottom: 2vh;
+  }
+
+  .two-top-games{
+    width: 48.50%;
+    height: 67.90vh;
+  }
+
+  .two-top-games-image{
+    width: 100%;
+    height: 46.40vh;
+    background-image: url(Images/Neverwinter.jpg);
+    background-size: cover;
+    border-radius: 15px;
+  }
+
+  .two-top-games-details{
+    width: 100%;
+    height: 21.50vh;
+    position: relative;
+  }
+
+  .two-top-games-details p{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 3vh;
+    left: 5%;
+  }
+
+  .two-top-games-details span{
+    font-size: 14px;
+    position: absolute;
+    top: 8vh;
+    left: 5%;
+  }
+
+  .two-top-games-details h3{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 1vh;
+    left: 5%;
+    border-bottom: 0.50px solid #2A2A2A;
+    padding-bottom: 2px;
+  }
+
+  .two-top-games-image-1{
+    width: 100%;
+    height: 46.40vh;
+    background-image: url(Images/The-Invincible.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+  }
+
+  .two-top-games-details-1{
+    width: 100%;
+    height: 21.50vh;
+    position: relative;
+  }
+
+  .two-top-games-details-1 p{
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 3vh;
+    left: 5%;
+  }
+
+  .two-top-games-details-1 span{
+    font-size: 14px;
+    position: absolute;
+    top: 8vh;
+    left: 5%;
+  }
+
+  .two-top-games-details-1 h3{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 1vh;
+    left: 5%;
+  }
+
+  .footer{
+    width: 100%;
+    padding: 5vh 5% 5vh 5%;
+  }
+
+  .footer-wrapper{
+    width: 100%;
+    margin-bottom: 10vh;
+  }
+
+  .footer-row-social-media{
+    width: 100%;
+    height: 5.50vh;
+    position: relative;
+    margin-bottom: 4vh;
+  }
+
+  .footer-row-social-media a{
+    text-decoration: none;
+  }
+
+  .footer-row-social-media img{
+    width: 2.25%;
+    position: absolute;
+  }
+
+  .pos1{
+    top: 0vh;
+    left: 0%;
+  }
+
+  .pos2{
+    top: 0vh;
+    left: 3%;
+  }
+
+  .pos3{
+    top: 0vh;
+    left: 6%;
+  }
+
+  .pos4{
+    top: 0vh;
+    right: 0%;
+  }
+
+  .footer-row-resources-heading{
+    font-size: 14px;
+    color: #8b8b8b;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  .footer-row-resources-wrapper{
+    width: 100%;
+    height: 15vh;
+    margin-top: 1.50vh;
+    margin-bottom: 5vh;
+  }
+
+  .footer-resources{
+    margin-right: 3%;
+  }
+
+  .footer-resources p{
+    font-size: 13px;
+    line-height: 2;
+  }
+
+  .footer-row-resources-wrapper-1{
+    width: 100%;
+    height: 16vh;
+    margin-top: 1.50vh;
+    padding-bottom: 5vh;
+    border-bottom: 1px solid #333333;
+  }
+
+  .copyright{
+    width: 100%;
+    margin-top: 5.50vh;
+    margin-bottom: 5.50vh;
+  }
+
+  .copyright p{
+    font-size: 11.36px;
+    color: #CCCCCC;
+    line-height: 1.5;
+  }
+
+  .terms-and-privacy{
+    width: 50%;
+    height: 5.50vh;
+    position: relative;
+  }
+
+  .terms-and-privacy div{
+    margin-top: 1.30vh;
+  }
+
+  .terms-and-privacy span{
+    font-size: 12px;
+    margin-right: 3%;
+  }
+
+  .epic-and-unreal{
+    width: 50%;
+    height: 5.50vh;
+  }
+
+  .epic-and-unreal a{
+    text-decoration: none;
+  }
+
+  .epic-and-unreal img{
+    width: 5%;
+    margin-left: 1.50%;
+  }
