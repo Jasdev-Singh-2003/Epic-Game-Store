@@ -185,7 +185,7 @@
     background-image: url(Images/Ubisoft-Sale-Big.jpg);
     background-position: center;
     background-size: cover;
-    box-shadow: 0px 0px 50px rgba(118, 118, 118, 0.301);
+    /* box-shadow: 0px 0px 50px rgba(118, 118, 118, 0.301); */
     border-radius: 20px;
     position: relative;
   }
